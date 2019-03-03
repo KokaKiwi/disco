@@ -12,7 +12,7 @@ with open('README.md') as f:
 extras_require = {
     'voice': ['pynacl==1.2.1'],
     'http': ['flask==0.12.2'],
-    'yaml': ['pyyaml==3.12'],
+    'yaml': ['pyyaml==3.13'],
     'music': ['youtube_dl>=2018.1.21'],
     'performance': [
         'erlpack==0.3.2' if sys.version_info.major == 2 else 'earl-etf==2.1.2',
